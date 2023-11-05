@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penting Tuku Dealer</title>
+    <link rel=" stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fjalla+One&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="header">
+        <div class="header-text">
+            <h1>PENTING TUKU DEALER</h1>
+            <p>Sangat terpercaya karena adminnya kami bertiga</p>
+            <div class=" header-btn">
+                <a href="tentang kami.html"><span></span>Tentang kami</a>
+                <a href="produk.html"><span></span>Produk</a>
+            </div>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+        <ul>
+           <li><a href="#">HOME</a></li> 
+           <li><a href="contact us.html">CONTACT US</a></li> 
+        </ul>    
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="menu.png" id="menu">
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "close.png";
+        }
+        else{
+            sideNav.style.right = "-250px";   
+            menu.src = "menu.png";
+        }
+    }     
+    </script>
+  </body>
+</html>

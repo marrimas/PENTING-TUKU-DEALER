@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel=" stylesheet" href="contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fjalla+One&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <section class="header">
+    <div class="header-text">
+    <h1>CONTACT US</h1>
+    <p>Instagram: pentingtukudealer.id</p>
+    <p>WA: 085779699111</p>
+    <p>Damar M Abyasa XII MIPA 3/8
+    <p>Friska Putri Aria XII MIPA 3/17
+    <p>Novena Maria P.U XII MIPA 3/28</p>
+    </p>
+    </p>
+    </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+        <ul>
+           <li><a href="index.html">HOME</a></li> 
+           <li><a href="contact us.html">CONTACT US</a></li> 
+        </ul>    
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="menu.png" id="menu">
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "close.png";
+        }
+        else{
+            sideNav.style.right = "-250px";   
+            menu.src = "menu.png";
+        }
+    }     
+    </script>
+</body>
+</html>

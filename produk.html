@@ -1,0 +1,89 @@
+<html lang="en">
+
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Produk</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+     <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fjalla+One&display=swap" rel="stylesheet" />
+
+  </head>
+
+  <body>
+
+    <div id="sideNav">
+      <nav>
+      <ul>
+         <li><a href="index.html">HOME</a></li> 
+         <li><a href="contact us.html">CONTACT US</a></li> 
+      </ul>    
+      </nav>
+  </div>
+  <div id="menuBtn">
+      <img src="menu.png" id="menu">
+  </div>
+  <script>
+      var menuBtn = document.getElementById("menuBtn")
+      var sideNav = document.getElementById("sideNav")
+      var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+  menuBtn.onclick = function(){
+      if(sideNav.style.right == "-250px"){
+          sideNav.style.right = "0";
+          menu.src = "close.png";
+      }
+      else{
+          sideNav.style.right = "-250px";   
+          menu.src = "menu.png";
+      }
+  }     
+  </script>
+
+      </h1>
+    </div>
+    
+    <section class="header">
+
+        <div class="header-text">
+
+            <h1>OUR PRODUCT</h1>
+            
+            <section class ="Produk" en:"Product">
+            
+                <div class="box-container">
+
+                <div class="box">
+                <img src="produk1.png" alt="XMAX 250">
+                <div class="price">Rp 66.000.000</div>
+                <div class="price2">XMAX 250</div>
+                <a href="XMAX 250.html" class="btn">SPESIFIKASI</a>
+</div>
+<br><br>
+            <section class ="Produk" en:"Product">
+                <div classclass="box-container">
+                <div class="box">
+                <img src="produk2.png" alt="AEROX 155">
+                <div class="price3">Rp 30.960.000</div>
+                <div class="price4">AEROX 155</div>
+                <a href="AEROX 155.html" class="btn">SPESIFIKASI</a>
+              
+</div>
+<br><br>
+            <section class ="Produk" en:"Product">
+                <div classclass="box-container">
+                <div class="box">
+                <img src="produk3.png" alt="AEROX 155">
+                <div class="price5">Rp 812.000.000</div>
+                <div class="price6">YAMAHA R1</div>
+                <a href="AEROX 155.html" class="btn">SPESIFIKASI</a>
+              
+</div>
+<br><br><br><br><br><br>
